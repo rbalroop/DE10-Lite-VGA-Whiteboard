@@ -15,3 +15,6 @@ sensitive to a “pause” switch. When this switch is active, the cursor’s po
 
 For each clock cycle, the cursor’s position is fed to the FrameBuﬀer so its array can update the state of the cells (black or white) that the cursor traversed
 during the rising clock edge.
+
+Disclaimer: Pin assignments for the switches, seven-segment displays, and VGA must also be specified for the project to run properly!
+For the correct pin assignments, refer to: https://ftp.intel.com/Public/Pub/fpgaup/pub/Intel_Material/Boards/DE10-Lite/DE10_Lite_User_Manual.pdf
